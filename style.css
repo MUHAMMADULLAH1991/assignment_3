@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    background-image: url('images/web-bac-color.jpeg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    color: black;
+}
+
+.project{
+    margin-top: 15px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.project-item{
+    float: left;
+    width: 32%;
+    border: 1px solid blueviolet;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 300px;
+    background-color: mediumturquoise;
+    text-align: center;
+    color: red;
+}
+
+.project-imaage{
+    width: 100%;
+    height: 200px;
+}
+
+.footer{
+    margin-top: 10px;
+    height: 150px;
+    background-color: blanchedalmond;
+    color: blue;
+}
+
+.footer-item{
+    float: left;
+    width: 33%;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
+.link{
+    text-decoration: none;
+    color: red;
+    display: block;
+}
+
+@media screen and (max-width: 600px){
+    .hero{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .hero{
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .hero{
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .project-item{
+        width: 235px
+    }
+}
+
+@media screen and (max-width: 734px){
+    .project-item{
+        width: 230px
+    }
+}
+
+@media screen and (max-width: 720px){
+    .project-item{
+        width: 225px
+    }
+}
+
+@media screen and (max-width: 705px){
+    .project-item{
+        width: 220px
+    }
+}
+
+@media screen and (max-width: 690px){
+    .project-item{
+        width: 215px
+    }
+}
+
+@media screen and (max-width: 675px){
+    .project-item{
+        width: 210px
+    }
+}
+
+@media screen and (max-width: 660px){
+    .project-item{
+        width: 205px
+    }
+}
+
+@media screen and (max-width: 645px){
+    .project-item{
+        width: 200px
+    }
+}
+
+@media screen and (max-width: 630px){
+    .project-item{
+        width: 195px;
+        height: 280;
+    }
+}
+
+@media screen and (max-width: 615px){
+    .project-item{
+        width: 190px;
+        height: 275;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .project-item{
+        width: 185px;
+        height: 270px;
+    }
+
+    .project-imaage{
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 585px){
+    .project-item{
+        width: 180px;
+        
+    }
+}
+
+@media screen and (max-width: 570px){
+    .project-item{
+        width: 175px;
+        
+    }
+}
+
+@media screen and (max-width: 555px){
+    .project-item{
+        width: 170px;
+        
+    }
+}
+
+@media screen and (max-width: 540px){
+    .project-item{
+        width: 165px;
+        
+    }
+}
+
+@media screen and (max-width: 525px){
+    .project-item{
+        width: 160px;
+        height: 250px;
+    }
+
+     .project-imaage{
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 525px){
+    .project-item{
+        width: 155px;
+    }
+}
+
+@media screen and (max-width: 496px){
+    .project-item{
+        width: 232px;
+    }
+}
+
+@media screen and (max-width: 484px){
+    .project-item{
+        width: 225px;
+    }
+}
+
+@media screen and (max-width: 470px){
+    .project-item{
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .project-item{
+        width: 215px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .project-item{
+        width: 210px;
+    }
+}
+
+@media screen and (max-width: 440px){
+    .project-item{
+        width: 205px;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .project-item{
+        width: 200px;
+    }
+}
+
+
+@media screen and (max-width: 420px){
+    .project-item{
+        width: 195px;
+    }
+}
+
+@media screen and (max-width: 410px){
+    .project-item{
+        width: 190px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .project-item{
+        width: 380px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .project-item{
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .project-item{
+        width: 340px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .project-item{
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 330px){
+    .project-item{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .project-item{
+        width: 290px;
+    }
+}
+
+
+@media screen and (max-width: 598px){
+    .footer-item{
+        width: 190px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .footer-item{
+        width: 185px;
+    }
+}
+
+@media screen and (max-width: 561px){
+    .footer-item{
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 546px){
+    .footer-item{
+        width: 175px;
+    }
+}
+
+@media screen and (max-width: 531px){
+    .footer-item{
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 516px){
+    .footer-item{
+        width: 165px;
+    }
+}
+
+@media screen and (max-width: 501px){
+    .footer-item{
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 486px){
+    .footer-item{
+        width: 155px;
+    }
+}
+
+@media screen and (max-width: 471px){
+    .footer-item{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 456px){
+    .footer-item{
+        width: 145px;
+    }
+}
+
+@media screen and (max-width: 441px){
+    .footer-item{
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 426px){
+    .footer-item{
+        width: 135px;
+    }
+}
+
+@media screen and (max-width: 411px){
+    .footer-item{
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 396px){
+    .footer-item{
+        width: 125px;
+    }
+}
+
+@media screen and (max-width: 381px){
+    .footer-item{
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 366px){
+    .footer-item{
+        width: 115px;
+    }
+}
+
+@media screen and (max-width: 351px){
+    .footer-item{
+        width: 110px;
+    }
+}
+
+@media screen and (max-width: 336px){
+    .footer-item{
+        width: 104px;
+    }
+}
+
+@media screen and (max-width: 318px){
+    .footer-item{
+        width: 100px;
+    }
+}
